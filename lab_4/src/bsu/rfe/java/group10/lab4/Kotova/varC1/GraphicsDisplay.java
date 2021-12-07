@@ -537,10 +537,7 @@ public class GraphicsDisplay extends JPanel {
         }
     }
 
-    protected void
-    color.blue - Данный веб-сайт выставлен на..
-    Color.BLUE
-    paintAxis(Graphics2D canvas) {
+    protected void paintAxis(Graphics2D canvas) {
         Color oldColor = canvas.getColor();
         Paint oldPaint = canvas.getPaint();
         Stroke oldStroke = canvas.getStroke();
