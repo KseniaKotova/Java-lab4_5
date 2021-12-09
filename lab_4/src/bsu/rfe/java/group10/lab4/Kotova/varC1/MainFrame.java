@@ -105,8 +105,7 @@ public class MainFrame extends JFrame {
         showGridItem.setSelected(true);
 
         graphicsMenu.addMenuListener(new GraphicsMenuListener());
-        getContentPane().add(display, BorderLayout.CENTER);
-//        openGraphics(new File("/Downloads/g2"));
+        getContentPane().add(display, BorderLayout.CENTER)
     }
 
     protected void saveGraphics(File selectedFile) {
